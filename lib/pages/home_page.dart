@@ -45,11 +45,14 @@ class _HomeState extends State<HomePage> {
           // color: const Color.fromARGB(255, 160, 15, 5),
           color: Colors.white,
           child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Image.asset("assets/images/logo.jpg"),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.all(45),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Image.asset("assets/images/logo.jpg"),
+                ],
+              ),
             ),
           ),
         ),
