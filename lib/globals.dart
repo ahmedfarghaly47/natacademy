@@ -8,7 +8,7 @@ String fNumber = "";
 String acaYear = "";
 String stID = "";
 String stName = "";
-String baseUrl = "https://www.mescairo.com/app/nat";
+String baseUrl = "https://localhost";
 
 const primaryColor = Color.fromARGB(255, 28, 83, 125);
 // const backColor = Color.fromARGB(255, 227, 242, 253);
